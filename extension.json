@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "EU number of tenderers"
+  },
+  "description": {
+    "en": "This extension aims primarily at supporting the expression of limits in the number of invited tenderers for closed procedures, formatted according to TED v2.0.9 schema (form F02, section II 2.9). This information is not supported by eForms."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_tenderers_number_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+]
+}
