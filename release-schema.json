@@ -2,26 +2,38 @@
   "definitions": {
     "Tender": {
       "properties": {
-          "envisagedNumberTenderers": {
-              "title": "Envisaged number of tenderers",
-              "description": "The number of tenderers envisaged by the procuring entitiy.",
-              "type": ["null","number"]
-          },
-          "envisagedMinimumNumberTenderers": {
-              "title": "Envisaged minimum number of tenderers",
-              "description": "Envisaged minimum number of tenderers when the envisaged number of tenderers is expressed as a range.",
-              "type": ["number","null"]
-          },
-          "envisagedMaximumNumberTenderers": {
-              "title": "Envisaged maximum number of tenderers",
-              "description": "Envisaged maximum number of tenderers when the envisaged number of tenderers is expressed as a range.",
-              "type": ["number","null"]
-          },
-          "envisagedNumberTenderersRationale": {
-              "title": "Rationale for the envisaged number of tenderers",
-              "description": "The rationale for the provided limits of tenderers.",
-              "type": ["string","null"]
-          }
+        "envisagedNumberTenderers": {
+          "title": "Envisaged number of tenderers",
+          "description": "The number of tenderers envisaged by the procuring entitiy.",
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "envisagedMinimumNumberTenderers": {
+          "title": "Envisaged minimum number of tenderers",
+          "description": "Envisaged minimum number of tenderers when the envisaged number of tenderers is expressed as a range.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "envisagedMaximumNumberTenderers": {
+          "title": "Envisaged maximum number of tenderers",
+          "description": "Envisaged maximum number of tenderers when the envisaged number of tenderers is expressed as a range.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "envisagedNumberTenderersRationale": {
+          "title": "Rationale for the envisaged number of tenderers",
+          "description": "The rationale for the provided limits of tenderers.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     }
   }
