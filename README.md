@@ -6,7 +6,7 @@ Adds a second stage object to the lot object, to describe the second stage of a 
 
 If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.
 
-If `maximumCandidates` is set, `eligibilityCriteria` can be used for the brief description of the selection criteria and how the selection criteria will be used to select candidates to be invited for the second stage.
+If `maximumCandidates` is set, use the selection criteria extension (TBD) to describe how the selection criteria will be used to select candidates to be invited for the second stage.
 
 ## Legal context
 
