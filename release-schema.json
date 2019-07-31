@@ -9,7 +9,7 @@
           "properties": {
             "minimumCandidates": {
               "title": "Minimum number of candidates",
-              "description": "The minimum number of candidates to be invited for the second stage of the procedure.",
+              "description": "The minimum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
               "type": [
                 "number",
                 "null"
@@ -17,7 +17,7 @@
             },
             "maximumCandidates": {
               "title": "Maximum number of candidates",
-              "description": "The maximum number of candidates to be invited for the second stage of the procedure.",
+              "description": "The maximum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
               "type": [
                 "number",
                 "null"
