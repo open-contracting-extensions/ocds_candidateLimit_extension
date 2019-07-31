@@ -1,5 +1,35 @@
 # Number of tenderers extension for TED data
 
-> OCDS extension to describe the minimum, maximum or estimated number of tenderers, compatible with TED form F02, section II 2.9. This data is not included in eForms.
+Adds a second stage object to the lot object, to describe the second stage of a two-stage procedure. In particular, it adds two fields to describe the limits on the number of candidates to be invited.
 
-This extension aims primarily at supporting the expression of limits in the number of invited tenderers for closed procedures, formatted according to TED v2.0.9 schema (form F02, section II 2.9).
+## Guidance
+
+If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.
+
+If `maximumCandidates` is set, `eligibilityCriteria` can be used for the brief description of the selection criteria and how the selection criteria will be used to select candidates to be invited for the second stage.
+
+## Legal context
+
+In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage)](https://github.com/eForms/eForms). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+
+## Example
+
+```json
+{
+  "tender": {
+    "lots": [
+      {
+        "id": "1",
+        "secondStage": {
+          "minimumCandidates": 5,
+          "maximumCandidates": 50
+        }
+      }
+    ]
+  }
+}
+```
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.

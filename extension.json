@@ -1,17 +1,20 @@
 {
   "name": {
-    "en": "EU number of tenderers"
+    "en": "Second stage candidate limit"
   },
   "description": {
-    "en": "This extension aims primarily at supporting the expression of limits in the number of invited tenderers for closed procedures, formatted according to TED v2.0.9 schema (form F02, section II 2.9). This information is not supported by eForms."
+    "en": "Adds a second stage object to the lot object, to describe the second stage of a two-stage procedure."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_tenderers_number_extension"
+    "en": "https://github.com/open-contracting-extensions/ocds_candidateLimit_extension"
   },
   "compatibility": [
     "1.1"
   ],
   "schemas": [
     "release-schema.json"
-]
+  ],
+  "dependencies": [
+    "https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/master/extension.json"
+  ]
 }
