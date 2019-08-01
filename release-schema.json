@@ -1,27 +1,45 @@
 {
   "definitions": {
+    "Tender": {
+      "properties": {
+        "secondStage": {
+          "title": "Second stage",
+          "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
+          "$ref": "#/definitions/SecondStage"
+        }
+      }
+    },
     "Lot": {
       "properties": {
         "secondStage": {
           "title": "Second stage",
           "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
-          "type": "object",
-          "properties": {
-            "minimumCandidates": {
-              "title": "Minimum number of candidates",
-              "description": "The minimum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "maximumCandidates": {
-              "title": "Maximum number of candidates",
-              "description": "The maximum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
-              "type": [
-                "number",
-                "null"
-              ]
+          "$ref": "#/definitions/SecondStage"
+        }
+      }
+    }
+  },
+  "SecondStage": {
+    "title": "Second stage",
+    "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
+    "type": "object",
+    "properties": {
+      "minimumCandidates": {
+        "title": "Minimum number of candidates",
+        "description": "The minimum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "maximumCandidates": {
+        "title": "Maximum number of candidates",
+        "description": "The maximum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
+        "type": [
+          "number",
+          "null"
+        ]
+      },
             }
           }
         }
