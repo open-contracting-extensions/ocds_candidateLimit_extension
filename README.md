@@ -22,7 +22,9 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
         "id": "1",
         "secondStage": {
           "minimumCandidates": 5,
-          "maximumCandidates": 50
+          "maximumCandidates": 50,
+          "successiveReduction": true,
+          "possiblyNoNegotiation": false
         }
       }
     ]

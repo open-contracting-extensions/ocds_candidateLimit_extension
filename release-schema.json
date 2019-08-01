@@ -1,29 +1,59 @@
 {
   "definitions": {
+    "Tender": {
+      "properties": {
+        "secondStage": {
+          "title": "Second stage",
+          "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
+          "$ref": "#/definitions/SecondStage"
+        }
+      }
+    },
     "Lot": {
       "properties": {
         "secondStage": {
           "title": "Second stage",
           "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
-          "type": "object",
-          "properties": {
-            "minimumCandidates": {
-              "title": "Minimum number of candidates",
-              "description": "The minimum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
-              "type": [
-                "number",
-                "null"
-              ]
-            },
-            "maximumCandidates": {
-              "title": "Maximum number of candidates",
-              "description": "The maximum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
-              "type": [
-                "number",
-                "null"
-              ]
-            }
-          }
+          "$ref": "#/definitions/SecondStage"
+        }
+      }
+    },
+    "SecondStage": {
+      "title": "Second stage",
+      "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
+      "type": "object",
+      "properties": {
+        "minimumCandidates": {
+          "title": "Minimum number of candidates",
+          "description": "The minimum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "maximumCandidates": {
+          "title": "Maximum number of candidates",
+          "description": "The maximum number of candidates to be invited for the second stage of the procedure. If there is an exact limit on the number of candidates, set `minimumCandidates` and `maximumCandidates` to the same number.",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "successiveReduction": {
+          "title": "Successive reduction",
+          "description": "The procedure will take place in successive stages. In each stage, some participants may be eliminated.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "mayNotHaveNegotiation": {
+          "title": "May not have negotiation",
+          "description": "The buyer or procuring entity reserves the right to award the contract on the basis of the initial bids without any further negotiations.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
