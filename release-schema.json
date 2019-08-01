@@ -47,9 +47,9 @@
             "null"
           ]
         },
-        "possiblyNoNegotiation": {
-          "title": "Possibly no negotiation",
-          "description": "The procuring entity reserves the right to award the contract on the basis of the initial bids without any further negotiations.",
+        "noNegotiationNecessary": {
+          "title": "No negotiation necessary",
+          "description": "The buyer or procuring entity reserves the right to award the contract on the basis of the initial bids without any further negotiations.",
           "type": [
             "boolean",
             "null"
