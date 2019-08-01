@@ -1,12 +1,12 @@
 {
   "name": {
-    "en": "Second stage candidate limit"
+    "en": "Second stage description"
   },
   "description": {
-    "en": "Adds a second stage object to the lot object, to describe the second stage of a two-stage procedure."
+    "en": "Adds a second stage object to the tender and lot objects, to describe the second stage of a two-stage procedure."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_candidateLimit_extension"
+    "en": "https://github.com/open-contracting-extensions/ocds_secondStageDescription_extension"
   },
   "compatibility": [
     "1.1"

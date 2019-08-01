@@ -1,6 +1,6 @@
-# Number of tenderers extension for TED data
+# Second stage description
 
-Adds a second stage object to the lot object, to describe the second stage of a two-stage procedure. In particular, it adds two fields to describe the limits on the number of candidates to be invited.
+Adds a second stage object to the tender and lot objects, to describe the second stage of a two-stage procedure. In particular, it adds two fields to describe the limits on the number of candidates to be invited.
 
 ## Guidance
 
