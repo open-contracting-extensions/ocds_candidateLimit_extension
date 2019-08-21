@@ -41,7 +41,7 @@
         },
         "successiveReduction": {
           "title": "Successive reduction",
-          "description": "The procedure will take place in successive stages. In each stage, some participants may be eliminated.",
+          "description": "The procedure will take place in successive stages. In each stage, some participants might be eliminated.",
           "type": [
             "boolean",
             "null"
