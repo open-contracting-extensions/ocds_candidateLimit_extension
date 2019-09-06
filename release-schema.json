@@ -54,6 +54,15 @@
             "boolean",
             "null"
           ]
+        },
+        "invitationDate": {
+          "title": "Invitation date",
+          "description": "The date when the invitations are sent to submit tenders.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
         }
       }
     }

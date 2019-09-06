@@ -24,7 +24,8 @@ In the European Union, this extension's fields correspond to [eForms BG-709 (Sec
           "minimumCandidates": 5,
           "maximumCandidates": 50,
           "successiveReduction": true,
-          "noNegotiationNecessary": false
+          "noNegotiationNecessary": false,
+          "invitationDate": "2019-08-16T10:30:00Z"
         }
       }
     ]
