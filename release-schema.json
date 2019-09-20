@@ -57,7 +57,7 @@
         },
         "invitationDate": {
           "title": "Invitation date",
-          "description": "The date when the invitations are sent to submit tenders.",
+          "description": "The estimated date of dispatch of the invitations to participate or to submit bids.",
           "type": [
             "string",
             "null"
