@@ -6,7 +6,7 @@
     "en": "Adds a second stage object to the tender and lot objects, to describe the second stage of a two-stage procedure."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_secondStageDescription_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/secondStageDescription/"
   },
   "compatibility": [
     "1.1"
