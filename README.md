@@ -10,7 +10,7 @@ If `maximumCandidates` is set, use the selection criteria extension (TBD) to des
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-709 (Second Stage)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Example
 
